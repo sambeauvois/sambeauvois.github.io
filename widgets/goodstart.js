@@ -26,6 +26,11 @@ var GoodStartWidget = zoid.create({
             type: 'string',
             required: false,
             queryParam: true
+        },
+        view:{
+            type: 'string',
+            required: false,
+            queryParam: true
         }
     }
 });
